@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+}
+
+.navbar {
+    background-color: blueviolet;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: rgb(201, 255, 139) !important;
+    padding: 5px;
+}
+
+.jumbotron {
+    padding: 0;
+    margin: 0;
+}
+.jumbotron img {
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding-top: 4rem;
+}
+
+.btn {
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+}
+
+#tentang {
+    background-color: darkgray;
+    padding-bottom: 5px;
+}
+
+.side {
+    float: right;
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px 1px gray;
+}
+#produk {
+    background-color: rgb(192, 184, 184);
+}
+
+#kontak {
+    background-color: rgb(131, 136, 141);
+}
+
+.btn:hover {
+    color: yellow;
+}
+
+.aset {
+    height: 280px;
+}
+
+footer {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.bi {
+    color: white;
+    margin: 5px;
+}
